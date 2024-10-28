@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="learn4.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="roll-number">Roll Number:</label>
+    <input type="text" id="roll-number" name="rollNumber" required>
+
+    <label for="leave-type">Leave Type:</label>
+    <select id="leave-type" name="leaveType" required>
+        <option value="">Select</option>
+        <option value="Medical">Medical</option>
+        <option value="Personal">Personal</option>
+        <option value="Family">Family</option>
+    </select>
+
+    <label for="start-date">Start Date:</label>
+    <input type="date" id="start-date" name="startDate" required>
+
+    <label for="end-date">End Date:</label>
+    <input type="date" id="end-date" name="endDate" required>
+
+    <label for="reason">Reason:</label>
+    <textarea id="reason" name="reason" required></textarea>
+
+    <button type="submit">Submit</button>
+</form>
+<div id="error-messages"></div>
+</div>
+
+<script src="learn5.js"></script>
+
+
+</body>
+</html>
